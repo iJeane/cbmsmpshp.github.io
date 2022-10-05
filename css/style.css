@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Trajan Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trajan Pro Regular'), url('../fonts/TrajanPro-Regular.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Trajan Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trajan Pro Bold'), url('../fonts/TrajanPro-Bold.woff') format('woff');
+}
+
+.trj {
+    font-family: 'Trajan Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.trj-b {
+    font-family: 'Trajan Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.head-rule {
+    width: 25%;
+    margin: auto;
+}
+
+table.table > thead > tr > th {
+    vertical-align: middle;
+    text-align: center;
+}
